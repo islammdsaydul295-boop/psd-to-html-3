@@ -1,0 +1,2 @@
+$(document).ready(function(){$(".js-waypoints-start").waypoint(function(direction){if(direction=="down"){$("nav").addClass("sticky")}else{$("nav").removeClass("sticky")}});$('section, header').scrollWatchMapTo('ul.main-nav > li',null,{resolutionMode:'focus-line',viewMarginTop:0,})});function openNav(){document.getElementById('myNav').style.width="100%"}
+function closeNav(){document.getElementById('myNav').style.width="0"}
